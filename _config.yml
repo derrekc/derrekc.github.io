@@ -1,12 +1,16 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme
-lsi: false
-safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
+- jekyll-paginate
+
+markdown: kramdown
 kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+sidebar: true
