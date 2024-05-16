@@ -1,4 +1,5 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: jekyll-theme-minimal
+title: DerrekC's Homepage
 plugins:
 - jekyll-remote-theme
 - jekyll-paginate
