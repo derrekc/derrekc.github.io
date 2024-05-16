@@ -1,18 +1,3 @@
 theme: jekyll-theme-minimal
 title: DerrekC's Homepage
-plugins:
-- jekyll-remote-theme
-- jekyll-paginate
-- jekyll-include-cache
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-
-sidebar: true
+description: Something good is coming soon!
